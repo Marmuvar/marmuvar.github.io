@@ -1,19 +1,16 @@
 ---
 
 layout: default
-name: Christian Surname
-location: "Somewhere"
-country: Nation
-email: "your.address@email.com"
-twitter: "@meontwitter"
-blog: "https://wordpress.com/"
-linkedin: "http://www.linkedin.com/"
-github: "https://github.com/"
-flickr: "https://www.flickr.com/"
-slideshare: "http://slideshare.net/"
+name: Mark Benmuvhar
+location: "St. Louis, Missouri"
+country: United States
+email: "mark.benmuvhar@gmail.com"
+linkedin: "http://www.linkedin.com/mark-benmuvhar"
+github: "https://github.com/marmuvar"
 
 ---
 
-Create an elegant and customisable resume using Jekyll. Built to be simple to edit, update and modify, this Jekyll based site allows you to run your personal resume in public and for free on GitHub pages. Buy your own web domain and for about the cost of a (fancy) coffee you can display your professional identity on the web. 
+I am a data scientist and analytical storyteller whose pharmaceutical engineering experience provides a balanced view among designing, questioning, and explaining data.  
+As a scientist, I chose and performed experimental designs to develop new drug products.  Discussing necessary analytical tests and debating statistical versus practical result significance formed project cadence. As a technical lead for prototype and pilot-scale development projects, I collected, organized, and presented volumes of data to support complex controlled release formulations and other dosage forms.  Audiences ranged from technical peers to senior management and regulatory agencies.   
 
-Liberate yourself from LinkedIn and other resume services by having your own space. Display what information you want and how you want it. You don't need a business card - get a URL!
+Now, I'm looking forward to exploring the data project questions that connect insights and stakeholders to better business outcomes.
