@@ -1,9 +1,9 @@
 ---
 
 layout: null 
-period: 2014-2014 
-institution: Ivy Covered University
-title: "Graduate Certificate in Awesomeness"
+period: 2020-2022
+institution: Truman State University (Kirksville, MO)
+title: "Master of Science in Data Science and Analytical Storytelling"
 
 ---
 
