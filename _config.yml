@@ -1,7 +1,7 @@
 # Site settings
-title: "Christian Surname"
-tagline: "Resume Builder"
-description: "Welcome to the Resume Builder. You can create your own resume by adding a few markdown files, tweaking values in a a config file and changing some CSS"  
+title: "Mark Benmuvhar"
+tagline: "Professional Experiences"
+description: "Welcome to my overview of professional experiences and key projects."  
 baseurl: "/resume-builder" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
 
