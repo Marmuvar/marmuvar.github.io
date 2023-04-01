@@ -187,24 +187,24 @@ _________________________________________ -->
     </div>
     </section>
 
-<section class="u-full-width" id="interests"> 
+<section class="u-full-width" id="projects"> 
 
     <div class="container" align="center">  
         <div class="headline" align="center">
         <p><span>Outside</span></p>
-        <h2>Interests</h2>
+        <h2>Data Analysis</h2>
         </div>
     </div>
     
     <div class="container">
 
-{% for interests in site.interests %}
+{% for projects in site.projects %}
     <div class="row">  
         <div class="five columns">
-                <h2 class="date">{{ interests.title }}</h2>
+                <h2 class="date">{{ projects.title }}</h2>
             </div>
          <div class="seven columns">
-            {{ interests.content }}
+            {{ projects.content }}
         </div>
     </div>
 
