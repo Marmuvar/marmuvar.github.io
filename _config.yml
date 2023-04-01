@@ -16,9 +16,6 @@ collections:
     experience:
         output: false
         title: Experience
-    interests:
-        output: false
-        title: Interest
     publications:
         output: true
         title: Publication
