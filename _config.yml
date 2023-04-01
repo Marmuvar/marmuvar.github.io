@@ -22,6 +22,9 @@ collections:
     profile:
         output: false
         title: Profile
+    projects:
+        output: false
+        title: Projects
     skills:
         output: false
         title: Skills
