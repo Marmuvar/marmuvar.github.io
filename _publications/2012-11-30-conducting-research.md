@@ -1,11 +1,8 @@
 ---
 
-title: "Doing a Research Project"
-authors: "Christian Surname, Anothery Guy, Someone Else"
-publisher: A Fancy Journal
-published-date: Nov 2012
-link: "#"
+title: "MNK155 Fluid Bed Process Development Using Psychrometric Modeling"
+authors: "Mark Benmuvhar"
+publisher: "Mallinckrodt Pharmaceuticals Technical Exchange, St. Louis, MO"
+published-date: "Nov 8, 2013"
 
 ---
-
-A quick summary of what you wrote up just in case someone might actually find it interesting.  Seriously.... you never know.
