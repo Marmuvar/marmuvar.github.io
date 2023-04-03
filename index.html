@@ -102,37 +102,6 @@ _________________________________________ -->
 {% endfor %}                
     </div>
 </section>
-      
-<section class="u-full-width" id="publications"> 
-
-    <div class="container" align="center">  
-        <div class="headline" align="center">
-        <p><span>Research Papers</span></p>
-        <h2>Publications</h2>
-        </div>
-    </div>
-    
-    <div class="container">
-        
-{% for publications in site.publications reversed %}        
-    <div class="row">  
-        <div class="five columns">
-                <h2 class="date">{{ publications.published-date }}</h2>
-                <h4 class="institution">{{ publications.publisher }}</h4>
-            </div>
-         <div class="seven columns">
-            <h3>{{ publications.title }}</h3>
-        
-        <p class="authors">{{ publications.authors }}</p>
-            
-        </div>
-    </div>
-        
-{% endfor %}         
- 
-        
-    </div>
-</section>
 
 <section class="u-full-width" id="projects"> 
 
@@ -184,7 +153,7 @@ _________________________________________ -->
 {% endfor %} 
     </div>
 </section>
-
+      
 <section class="u-full-width" id="awards"> 
     <div class="container" align="center">  
         <div class="headline" align="center">
@@ -209,4 +178,35 @@ _________________________________________ -->
 {% endfor %}    
     </div>
 
+</section>
+
+<section class="u-full-width" id="publications"> 
+
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+        <p><span>Research Papers</span></p>
+        <h2>Publications</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+        
+{% for publications in site.publications reversed %}        
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">{{ publications.published-date }}</h2>
+                <h4 class="institution">{{ publications.publisher }}</h4>
+            </div>
+         <div class="seven columns">
+            <h3>{{ publications.title }}</h3>
+        
+        <p class="authors">{{ publications.authors }}</p>
+            
+        </div>
+    </div>
+        
+{% endfor %}         
+ 
+        
+    </div>
 </section>
