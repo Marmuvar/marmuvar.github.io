@@ -38,33 +38,7 @@ _________________________________________ -->
 
 {% endfor %}
 </div>      
-
-<section class="u-full-width" id="education"> 
-    <div class="container" align="center">  
-        <div class="headline" align="center">
-            <p><span>Learning &amp; Training</span></p>
-            <h2>Education</h2>
-        </div>
-    </div>
-
     
-    <div class="container">
-
-{% for education in site.education reversed %}
-    <div class="row">
-            <div class="five columns">
-                <h2 class="date">{{ education.period }}</h2>
-                <h4 class="institution">{{ education.institution }}</h4>
-            </div>
-         <div class="seven columns">
-            <h3>{{ education.title }}</h3>
-        </div>
-    </div>
- 
-{% endfor %}                
-    </div>
-</section>
-
 <section class="u-full-width" id="experience"> 
 
 <!-- Info below is the section heading and tagline -->
@@ -98,59 +72,37 @@ _________________________________________ -->
 {% endfor %}
         
     </div>
+
+
+
 </section>    
 
-<section class="u-full-width" id="skills"> 
-
+<section class="u-full-width" id="education"> 
     <div class="container" align="center">  
         <div class="headline" align="center">
-        <p><span>Areas of Expertise</span></p>
-        <h2>Skills</h2>
+            <p><span>Learning &amp; Training</span></p>
+            <h2>Education</h2>
         </div>
     </div>
-    
-    <div class="container">
-        
-{% for skills in site.skills %}
-    <div class="row">  
-        <div class="five columns">
-                <h2 class="date">{{ skills.title }}</h2>
-            </div>
-         <div class="seven columns">
-            {{ skills.content }}
-        </div>
-    </div>
-        
-{% endfor %} 
-    </div>
-    </section>
 
-<section class="u-full-width" id="projects"> 
-
-    <div class="container" align="center">  
-        <div class="headline" align="center">
-        <p><span>Data Analysis</span></p>
-        <h2>Projects</h2>
-        </div>
-    </div>
     
     <div class="container">
 
-{% for projects in site.projects %}
-    <div class="row">  
-        <div class="five columns">
-                <h2 class="date">{{ projects.title }}</h2>
+{% for education in site.education reversed %}
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">{{ education.period }}</h2>
+                <h4 class="institution">{{ education.institution }}</h4>
             </div>
          <div class="seven columns">
-            {{ projects.content }}
+            <h3>{{ education.title }}</h3>
         </div>
     </div>
-
-{% endfor %} 
-        
+ 
+{% endfor %}                
     </div>
 </section>
-
+    
 <section class="u-full-width" id="awards"> 
     <div class="container" align="center">  
         <div class="headline" align="center">
@@ -204,6 +156,57 @@ _________________________________________ -->
         
 {% endfor %}         
  
+        
+    </div>
+</section>
+    
+<section class="u-full-width" id="skills"> 
+
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+        <p><span>Areas of Expertise</span></p>
+        <h2>Skills</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+        
+{% for skills in site.skills %}
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">{{ skills.title }}</h2>
+            </div>
+         <div class="seven columns">
+            {{ skills.content }}
+        </div>
+    </div>
+        
+{% endfor %} 
+    </div>
+    </section>
+
+<section class="u-full-width" id="projects"> 
+
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+        <p><span>Data Analysis</span></p>
+        <h2>Projects</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+
+{% for projects in site.projects %}
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">{{ projects.title }}</h2>
+            </div>
+         <div class="seven columns">
+            {{ projects.content }}
+        </div>
+    </div>
+
+{% endfor %} 
         
     </div>
 </section>
