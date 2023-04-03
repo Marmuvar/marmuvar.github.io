@@ -2,7 +2,7 @@
 
 period: "Jul 2005 - Feb 2022"
 employer: Mallinckrodt
-title: "Principal Formulation Scientist and Predceding Roles"
+title: "Principal Formulation Scientist and Preceding Roles"
 
 ---
 
