@@ -2,7 +2,7 @@
 title: "Mark Benmuvhar"
 tagline: "Professional Experiences"
 description: "Welcome to my overview of professional experiences and key projects."  
-baseurl: "/resume-builder" # the subpath of your site, e.g. /blog/
+baseurl: "/marmuvar.github.io" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
 
 # Collections-builder
