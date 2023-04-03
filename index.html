@@ -86,14 +86,14 @@ _________________________________________ -->
             <div class="five columns">
                 <h2 class="date">{{ experience.period }}</h2>
                 <h4 class="employer">{{ experience.employer }}</h4>
-            </div>
-            <div class="seven columns">
+        </div>
+        <div class="seven columns">
             
 <!-- Info below is drawn in from the YAML title: and the content from the actual .md -->
             
-                <h3>{{ experience.title }}</h3>
-                {{ experience.content }}
-            </div> 
+        <h3>{{ experience.title }}</h3>
+            {{ experience.content }}
+    </div> 
     </div>
 {% endfor %}
         
@@ -112,17 +112,18 @@ _________________________________________ -->
     <div class="container">
         
 {% for skills in site.skills %}
-        <div class="row">  
-                <div class="five columns">
-                        <h2 class="date">{{ skills.title }}</h2>
-                </div>
-                <div class="seven columns">
-                        {{ skills.content }}
-                </div>
-        </div>      
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">{{ skills.title }}</h2>
+            </div>
+         <div class="seven columns">
+            {{ skills.content }}
+        </div>
+    </div>
+        
 {% endfor %} 
     </div>
-</section>
+    </section>
 
 <section class="u-full-width" id="projects"> 
 
@@ -173,6 +174,7 @@ _________________________________________ -->
 
 {% endfor %}    
     </div>
+
 </section>
     
 <section class="u-full-width" id="publications"> 
