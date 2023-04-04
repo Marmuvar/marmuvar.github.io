@@ -108,7 +108,7 @@ _________________________________________ -->
         <div class="headline" align="center">
         <p><span>Data Analysis</span></p>
         <h2>Projects</h2>
-        </div>
+        </div>1
     </div>
     
     <div class="container">
@@ -132,8 +132,8 @@ _________________________________________ -->
 
     <div class="container" align="center">  
         <div class="headline" align="center">
-        <p><span>Areas of Expertise</span></p>
-        <h2>Skills</h2>
+                <p><span>Areas of Expertise</span></p>
+                <h2>Skills</h2>
         </div>
     </div>
     
@@ -143,8 +143,8 @@ _________________________________________ -->
     <div class="row">  
         <div class="five columns">
                 <h2 class="date">{{ skills.title }}</h2>
-            </div>
-         <div class="seven columns">
+        </div>
+        <div class="seven columns">
             {{ skills.content }}
         </div>
     </div>
@@ -157,24 +157,25 @@ _________________________________________ -->
     <div class="container" align="center">  
         <div class="headline" align="center">
             <p><span>Recognition</span></p>
-            <h2>Honours and Awards</h2>
+            <h2>Honors and Awards</h2>
         </div>
     </div>
     
     <div class="container">
 
 {% for award in site.award reversed %}
-    <div class="row">  
-        <div class="five columns">
-                <h2 class="date">{{ award.issued }}</h2>
-                <h4 class="institution">{{ award.issuer }}</h4>
-            </div>
-         <div class="seven columns">
-            <h3>{{ award.title }}</h3>
+        <div class="row">  
+                <div class="five columns">
+                        <h2 class="date">{{ award.issued }}</h2>
+                        <h4 class="institution">{{ award.issuer }}</h4>
+                </div>
+                <div class="seven columns">
+                        <h3>{{ award.title }}</h3>
+                </div>
         </div>
-    </div>
 
-{% endfor %}    
+{% endfor %}   
+            
     </div>
 
 </section>
