@@ -37,7 +37,34 @@ _________________________________________ -->
     </div>
 
 {% endfor %}
-</div>      
+</div>    
+
+
+<section class="u-full-width" id="education"> 
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+            <p><span>Learning &amp; Training</span></p>
+            <h2>Education</h2>
+        </div>
+    </div>
+
+    
+    <div class="container">
+
+{% for education in site.education reversed %}
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">{{ education.period }}</h2>
+                <h4 class="institution">{{ education.institution }}</h4>
+            </div>
+         <div class="seven columns">
+            <h3>{{ education.title }}</h3>
+        </div>
+    </div>
+ 
+{% endfor %}                
+    </div>
+</section>s
     
 <section class="u-full-width" id="experience"> 
 
@@ -74,31 +101,6 @@ _________________________________________ -->
     </div>
 </section>    
 
-<section class="u-full-width" id="education"> 
-    <div class="container" align="center">  
-        <div class="headline" align="center">
-            <p><span>Learning &amp; Training</span></p>
-            <h2>Education</h2>
-        </div>
-    </div>
-
-    
-    <div class="container">
-
-{% for education in site.education reversed %}
-    <div class="row">
-            <div class="five columns">
-                <h2 class="date">{{ education.period }}</h2>
-                <h4 class="institution">{{ education.institution }}</h4>
-            </div>
-         <div class="seven columns">
-            <h3>{{ education.title }}</h3>
-        </div>
-    </div>
- 
-{% endfor %}                
-    </div>
-</section>
 
 <section class="u-full-width" id="projects"> 
 
