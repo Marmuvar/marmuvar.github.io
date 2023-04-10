@@ -3,26 +3,29 @@ layout: default
 ---
 
 <div class="container">
-{% for navigate in site.navigate %}
         <div class="row">
             <div class="seven columns" align="center">
-                <ul class="personal-details">
 
 <!-- Each of these refers to the YAML frontend of the profile.md file. You can create your own or edit these to suit -->
 
-                    <strong>Profile </strong>{{ navigate.profile }}
+                    <!-- <strong>Profile </strong>{{ navigate.profile }}
                     <strong>Education </strong>{{ navigate.education }}
                     <strong>Experience </strong>{{ navigate.experience }}
-                    <strong>Skills </strong> <a href="{{ navigate.skills }}"></a>
-                    <strong>Profile </strong> <a href="{{ profile.linkedin }}"></a>
-                    <!--<li><strong>Skills </strong> <a href="{{ profile.linkedin }}">Profile</a></li> -->
+                    <strong>Skills </strong> <a href="{{ # }}"></a>
+                    <strong>Projects </strong> <a href="{{ profile.linkedin }}"></a>
+                    <!--<li><strong>Skills </strong> <a href="{{ profile.linkedin }}">Profile</a></li>
                     <strong>Awards </strong> <a href="{{ profile.github }}"></a>
-                    <strong>Publications </strong> <a href="{{ profile.github }}"></a>
-                </ul>
+                    <strong>Publications </strong> <a href="{{ profile.github }}"></a> -->
+                profile: [Profile](#profile)
+                education: [Education](#education)
+                experience: [Experience](#experience)
+                projects: [Projects](#projects)
+                skills: [Skills](#skills)
+                awards: [Awards](#awards)
+                publications: [Publications](#publications)
+                        
             </div>           
     </div>
-
-{% endfor %}
 </div>    
 
 <!-- Profile Section 
