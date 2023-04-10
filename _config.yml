@@ -16,6 +16,9 @@ collections:
     experience:
         output: false
         title: Experience
+    navigation:
+        output: false
+        title: Navigation
     publications:
         output: true
         title: Publication
