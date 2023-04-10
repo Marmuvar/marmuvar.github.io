@@ -5,7 +5,7 @@ name: Mark Benmuvhar
 location: "St. Louis, Missouri"
 country: United States
 email: "mark.benmuvhar@gmail.com"
-linkedin: "http://www.linkedin.com/mark-benmuvhar"
+linkedin: "http://www.linkedin.com/in/mark-benmuvhar"
 github: "https://github.com/marmuvar"
 
 ---
