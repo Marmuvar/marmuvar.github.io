@@ -1,6 +1,6 @@
 ---
 
-profile: [profile](#profile)
+profile: [Profile](#profile)
 education: [Education](#education)
 experience: [Experience](#experience)
 projects: [Projects](#projects)
